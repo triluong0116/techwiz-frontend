@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persol | About us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://kit.fontawesome.com/79215f78f6.js" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="datashop.js"></script>
+    <script src="main.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0"
+        nonce="t1z5SChQ"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- Navbar menu full size -->
+            <div class="menu_bigsize row">
+                <!-- Logo  -->
+                <div class="logo col-sm-2 col-md-2 col-lg-3 col-xl-3 col-xxl-4">
+                    <a href="homepage.html"><img src="Image/Logo/Logo.png" alt=""></a>
+                </div>
+                </br>
+                <!-- Menu  -->
+                <div class=" col-sm-10 col-md-10 col-lg-9 col-xl-9 col-xxl-8">
+                    <ul class="nav">
+                        <li><a href="about_us.html">About us</a></li>
+                        <li>
+                            <a href="#">Products</a>
+                            <ul class="subnav">
+                                <!-- Menu product -->
+                                <li><a href="glasses.html">Eyeglass</a></li>
+                                <li><a href="sunglass.html">Sunglasses</a></li>
+                                <li><a href="lenses.html">Lenses</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Brands</a>
+                            <ul class="subnav">
+                                <!-- Brands -->
+                                <li><a href="#"><img src="Image/logo-brands/Untitled-2-07.png" alt=""></a></li>
+                                <li><a href="#"><img src="Image/logo-brands/Untitled-2-06.png" alt=""></a></li>
+                                <li><a href="#"><img src="Image/logo-brands/Untitled-2-05.png" alt=""></a></li>
+                                <li><a href="#"><img src="Image/logo-brands/Untitled-2-04.png" alt=""></a></li>
+                                <li><a href="#"><img src="Image/logo-brands/Untitled-2-03.png" alt=""></a></li>
+                                <li><a href="#"><img src="Image/logo-brands/Untitled-2-02.png" alt=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Handbook</a>
+                            <ul class="subnav">
+                                <!-- Guide -->
+                                <li><a href="#">About glasses frames</a></li>
+                                <li><a href="#">About choose glasses</a></li>
+                                <li><a href="#">Eyes health</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                            <ul class="subnav" id="news-subnav">
+                                <!-- Offer & event -->
+                                <li><a href="#">Special Offer</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact_us.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Navbar menu <500px size -->
+            <div class="menu_500px row">
+                <!-- Logo  -->
+                <div class="logo col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                    <a href="homepage.html"><img src="Image/Logo/Logo.png" alt=""></a>
+                </div>
+                </br>
+                <!-- Menu  -->
+                <div class="menu_btn col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                    <i class="fa-solid fa-bars" id="btn-menu-500px">
+                        <ul class="nav_500px" id="nav_500px">
+                            <li><a href="about_us.html">About us</a></li>
+                            <li>
+                                <a href="#">Products</a>
+                                <ul class="subnav_500px">
+                                    <!-- Menu product -->
+                                    <li><a href="glasses.html">Eyeglass</a></li>
+                                    <li><a href="sunglass.html">Sunglasses</a></li>
+                                    <li><a href="lenses.html">Lenses</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Brands</a>
+                                <ul class="subnav_500px " id="brand-subnav">
+                                    <!-- Brands -->
+                                    <li class="subnav_500px_img"><a href="#"><img
+                                                src="Image/logo-brands/Untitled-2-07.png" alt=""></a></li>
+                                    <li class="subnav_500px_img"><a href="#"><img
+                                                src="Image/logo-brands/Untitled-2-06.png" alt=""></a></li>
+                                    <li class="subnav_500px_img"><a href="#"><img
+                                                src="Image/logo-brands/Untitled-2-05.png" alt=""></a></li>
+                                    <li class="subnav_500px_img"><a href="#"><img
+                                                src="Image/logo-brands/Untitled-2-04.png" alt=""></a></li>
+                                    <li class="subnav_500px_img"><a href="#"><img
+                                                src="Image/logo-brands/Untitled-2-03.png" alt=""></a></li>
+                                    <li class="subnav_500px_img"><a href="#"><img
+                                                src="Image/logo-brands/Untitled-2-02.png" alt=""></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Handbook</a>
+                                <ul class="subnav_500px" id="handbook-subnav">
+                                    <!-- Guide -->
+                                    <li style="width:180px;"><a href="#">About glasses frames</a></li>
+                                    <li style="width:180px;"><a href="#">About choose glasses</a></li>
+                                    <li style="width:180px;"><a href="#">Eyes health</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                                <ul class="subnav_500px" id="news-subnav">
+                                    <!-- Offer & event -->
+                                    <li><a href="#">Special Offer</a></li>
+                                    <li><a href="#">Feedback</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact_us.html">Contact</a>
+                            </li>
+                        </ul>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduce & About us -->
+    <div class="container contain-introduce">
+        <div class="introduce">
+            <span class="introduce-title span-index">Introduce</span>
+            <h2 class="introduce-title">Persol Corporation</h2><br>
+            <h2 class="introduce-title">"See Better, Look Better"</h2>
+            <span>“Looking Clear, Perfectly Beautiful” is what we always try to bring to our guests at
+                Persol.</span>
+            <p>
+                The time when glasses frames were only for people with refractive errors, glasses frames just needed
+                to see clearly are long gone. Nowadays, frames not only have to be CHEAP, but also need to be
+                BEAUTIFUL and above all, COMFORTABLE.
+            </p>
+            <p>
+                That's why, from the very first days of its establishment, Persol has always tried to give its
+                guests A NEW EXPERIENCE with:
+            </p>
+            <ul>
+                <li>A collection of stylish frames that can fit near-sighted glasses.</li>
+                <li>Genuine lenses with various eye protection features.</li>
+                <li>Aesthetic eye fitting technique for people with high myopia.</li>
+            </ul>
+            <p>
+                All Person facilities are equipped with high standard ophthalmology and measuring technology room
+            </p>
+            <p>
+                We always support our customers with free eye exams for the first time and monthly eye exams. At
+                Persol, you will have the most comprehensive visual experience ever.
+            </p>
+            <p>
+                Beside that, we always help you find the best and most suitable frames for you. The right lenses
+                with
+                anti-glare, water-resistant, vapor/dust-proof features help you see more comfortably. And most of
+                all, Persol always accompanies you throughout the process of using frames with a lifetime warranty
+                service.
+            </p>
+            <h2 class="introduce-title">Find out more about us</h2>
+
+            <div class="row member-info">
+                <div class=" col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="Image/introduce-member/member-truong.jpg" alt="Lưu Quang Trường" class="member_img"
+                            title="Lưu Quang Trường">
+                    </div>
+                    <div class="info">
+                        <h4 class="name">Lưu Quang Trường</h4>
+                        <p>Vice-chairman</p>
+                    </div>
+                </div>
+                <div class=" col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="Image/introduce-member/member-tri.jpg" alt="Lương Minh Trí" class="member_img"
+                            title="Lương Minh Trí">
+                    </div>
+                    <div class="info">
+                        <h4 class="name">Lương Minh Trí</h4>
+                        <p>Chairman</p>
+                    </div>
+                </div>
+                <div class=" col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="Image/Th2202008.jpg" alt="" class="member_img">
+                    </div>
+                    <div class="info">
+                        <h4 class="name">A1</h4>
+                        <p>Vice-chairman</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row member-info">
+                <div class=" col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="Image/Th2202008.jpg" alt="" class="member_img">
+                    </div>
+                    <div class="info">
+                        <h4 class="name">A1</h4>
+                        <p>Deputy Director</p>
+                    </div>
+                </div>
+                <div class=" col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="Image/Th2202008.jpg" alt="" class="member_img">
+                    </div>
+                    <div class="info">
+                        <h4 class="name">A1</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class=" col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="Image/Th2202008.jpg" alt="" class="member_img">
+                    </div>
+                    <div class="info">
+                        <h4 class="name">A1</h4>
+                        <p>Deputy Director</p>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .contain-introduce {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .introduce {
+                    max-width: 1000px;
+                    margin-top: 80px;
+                    text-align: justify;
+                }
+
+                .introduce-title {
+                    font-style: italic;
+                }
+
+                .more_about_us {
+                    margin-top: 30px;
+                }
+
+                .more_about_us h2 {
+                    text-align: left;
+                }
+
+                .member-info {
+                    display: flex;
+                    margin-top: 20px;
+                    text-align: center;
+                }
+
+                .member-info img {
+                    max-width: 250px;
+                    max-height: 300px;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+
+
+                .member-info img:hover {
+                    opacity: 0.8;
+                    transform: scale(1.05);
+                }
+
+                .member-info .info {
+                    margin: 20px auto;
+                }
+
+                .member-info .info p {
+                    margin-bottom: 0;
+                    font-style: italic;
+                }
+            </style>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer row">
+        <div class="logo col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <a href="homepage.html"><img id="footer-logo" src="Image/Logo/Logo.png"></a>
+            <p>Persol Corporation</p>
+        </div>
+
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+            <ul id="footer-menu">
+                <li><a href="#">Information</a></li>
+                <li><a href="#mainproduct">Product</a></li>
+                <li><a href="#">News & Blog</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="footer-info">
+            <p><i class="fa-solid fa-location-arrow"></i> Address: 8 Ton That Thuyet, Nam Tu Liem, Ha Noi</p>
+            <span><i class="fa-solid fa-clock"></i> Open: 09h00 - 18h00</span> <br>
+            <span><i class="fa-solid fa-mobile"></i> Hotline: (090) 777 777</span> <br>
+            <span><i class="fa-solid fa-phone"></i> Tel: (024) 24242424</span> <br>
+
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" id="footer-network">
+            <h4>Social Network</h4>
+            <a href="https://www.facebook.com/aptech.fpt"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            <div id="fb-page" class="fb-page" data-href="https://www.facebook.com/aptech.fpt" data-tabs="timeline"
+                data-width="320" data-height="150" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/aptech.fpt" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/aptech.fpt">FPT Aptech - Hệ thống đào tạo Lập Trình Viên Quốc
+                        Tế</a></blockquote>
+            </div>
+
+            <div id="fb-page-size-2" class="fb-page" data-href="https://www.facebook.com/aptech.fpt/"
+                data-tabs="timeline" data-width="260" data-height="150" data-small-header="false"
+                data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/aptech.fpt/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/aptech.fpt/">FPT Aptech - Hệ thống đào tạo Lập Trình Viên
+                        Quốc Tế</a></blockquote>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
